@@ -5,6 +5,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
+st.markdown('''
+Customer churn built to analyse Churn in Companies.
+
+**Credits**
+- App built by [K. Abhi Ram Reddy](https://www.linkedin.com/in/k-abhi-ram-reddy-561742332/) 
+''')
+
 # Load the customer churn dataset
 data = pd.read_csv("customer_churn.csv")
 
